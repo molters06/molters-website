@@ -1,0 +1,103 @@
+<style>
+p{
+font-family: roboto,arial;
+}     
+.thumbnail{
+ width: 100% ;
+}
+
+.place{
+
+}
+
+
+.div2{
+vertical-align:top;
+}
+.div-thumb{
+vertical-align: top;
+
+
+}
+.p1-div{
+
+}
+.profile-picture{
+width: 34px;
+border-radius: 50px;
+margin-right: 10px;
+}
+.row{
+margin-top: 10px;
+display: grid;
+grid-template-columns: 50px 1fr;
+}
+.div-thumb2{
+margin-top: 10px;
+vertical-align: top;
+
+
+}
+.div-laugh{
+margin-top: 10px;
+
+
+}
+.thumbnail2{
+width: 34px ;
+border-radius: 20px;
+
+}
+.grid2{
+display: grid;
+grid-template-columns: 50px 1fr;
+}
+.main-grid{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+column-gap: 16px;
+row-gap: 40px;
+position: relative;
+}
+@media (max-width: 750px) {
+  .main-grid{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 751px) and (max-width:999px) {
+  .main-grid{
+    grid-template-columns: 1fr  1fr 1fr;
+  }
+}
+
+@media (min-width: 1000px) {
+  .main-grid{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+.video-time{
+position: absolute; background-color: black; color: white;
+    bottom:10px; font-weight: 500;
+    right:5px; border-radius: 2px;
+    padding-left: 3px; padding-right: 3px; font-size: 14px; padding-top: 2px;
+    padding-bottom: 2px; font-family: Roboto; font;
+}
+.video-time1{
+  position: absolute;
+  left: 115px;
+  bottom: 25px;
+  color: white;
+  background-color: red;
+ font-family: Roboto,arial;
+ font-weight: 500;
+ font-size: 12px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 10px;
+
+
+}
+</style>
